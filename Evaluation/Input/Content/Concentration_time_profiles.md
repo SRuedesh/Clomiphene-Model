@@ -1,0 +1,1 @@
+The concentration-time profile sections show observed and simulated plasma concentrations for the CYP2D6 activity-score panel study and the external literature studies. The section split follows the scientific role of the data rather than the analyte split used for GOF diagnostics.

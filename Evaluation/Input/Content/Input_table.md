@@ -1,0 +1,1 @@
+The following input-parameter tables summarize the final model parameterization for (E)-clomiphene and its metabolites. Parameter interpretation should be based on the source descriptions in [Section 2.2](#22-data-used) and the assumptions in [Section 2.3](#23-model-parameters-and-assumptions).

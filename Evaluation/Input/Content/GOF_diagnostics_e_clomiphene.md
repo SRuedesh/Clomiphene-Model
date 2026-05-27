@@ -1,0 +1,1 @@
+(E)-Clomiphene GOF diagnostics include the external literature studies and the CYP2D6 activity-score panel study. These diagnostics assess parent-compound exposure across oral single-dose, oral multiple-dose and CYP2D6-stratified conditions.

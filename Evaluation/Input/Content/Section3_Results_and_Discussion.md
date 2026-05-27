@@ -1,0 +1,7 @@
+The evaluation combines goodness-of-fit diagnostics and concentration-time profiles for (E)-clomiphene, (E)-4-hydroxyclomiphene, (E)-N-desethylclomiphene and (E)-4-hydroxy-N-desethylclomiphene. The diagnostic plots are separated by analyte so that parent and metabolite observations can be assessed without ambiguous legends.
+
+Overall model performance should be interpreted across the full clinical dataset rather than from a single study arm. The external literature studies primarily assess oral parent-compound disposition across single-dose and multiple-dose conditions, while the CYP2D6 activity-score panel study assesses parent-metabolite behavior across CYP2D6 activity groups.
+
+The clomiphene model publication reported that the model described the observed parent and metabolite concentration-time profiles and supported prediction of CYP2D6 DGI and CYP2D6/CYP3A4 DDGI scenarios [[1](#5-references)]. The present report reproduces the concentration-time and GOF assessment structure for the model repository and keeps parent and metabolite endpoints separated in the diagnostic sections.
+
+Residual uncertainty remains for the exact contribution of non-CYP2D6 pathways, protein-binding estimates and individual variability within the same CYP2D6 activity-score group. The model therefore supports CYP2D6 activity-score based exposure evaluation, while further genotype-specific refinement would require additional clinical data with paired parent-metabolite profiles.

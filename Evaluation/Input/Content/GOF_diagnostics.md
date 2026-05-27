@@ -1,0 +1,1 @@
+Goodness-of-fit diagnostics are shown separately for each analyte. This layout keeps parent and metabolite observations visually distinct and supports interpretation of CYP2D6 activity-score dependent parent-metabolite behavior.

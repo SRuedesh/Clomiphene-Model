@@ -1,0 +1,557 @@
+{
+  "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.3/OSP_Qualification_Plan_Schema.json",
+  "Projects": [
+    {
+      "Id": "Clomiphene",
+      "Path": "../../Clomiphene-Model.json",
+      "BuildingBlocks": []
+    }
+  ],
+  "ObservedDataSets": [],
+  "Plots": {
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 9,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "AxesSettings": {
+      "ComparisonTimeProfile": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "ng/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsPredictedVsObserved": [
+        {
+          "Unit": "ng/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Unit": "ng/ml",
+          "Dimension": "Concentration (mass)",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsResidualsOverTime": [
+        {
+          "Unit": "h",
+          "Dimension": "Time",
+          "Type": "X",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Unit": "",
+          "Dimension": "Dimensionless",
+          "Type": "Y",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ]
+    },
+    "AllPlots": [
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Wiehle 2013, 6.25 mg po m.d., n=16",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Wiehle 2013, 12.5 mg po m.d., n=14",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Mikkelson 1986, 21 mg po s.d.",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Miller 2019, 21 mg po m.d., n=12",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Ratiopharm 1991, 21 mg po s.d.",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Wiehle 2013, 25 mg po m.d., n=16",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
+        "SectionId": 331
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
+        "SectionId": 331
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
+        "SectionId": 331
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
+        "SectionId": 331
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
+        "SectionId": 331
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
+        "SectionId": 331
+      }
+    ],
+    "GOFMergedPlots": [
+      {
+        "SectionId": 321,
+        "Title": "(E)-Clomiphene observed versus simulated plasma concentration-time data",
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure"
+        ],
+        "Groups": [
+          {
+            "Caption": "(E)-clomiphene",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Clomiphene",
+                "Simulation": "Mikkelson 1986, 21 mg po s.d.",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Mikkelson 1986, (E)-clomiphene, 21 mg po s.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=1, (E)-clomiphene, 42 mg po s.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=2, (E)-clomiphene, 42 mg po s.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0.5, (E)-clomiphene, 42 mg po s.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0.75, (E)-clomiphene, 42 mg po s.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0, (E)-clomiphene, 42 mg po s.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=3, (E)-clomiphene, 42 mg po s.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "Miller 2019, 21 mg po m.d., n=12",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Miller 2019, (E)-clomiphene, 21 mg po m.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "Wiehle 2013, 12.5 mg po m.d., n=14",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Wiehle 2013, (E)-clomiphene, 12.5 mg po m.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "Wiehle 2013, 25 mg po m.d., n=16",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Wiehle 2013, (E)-clomiphene, 25 mg po m.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "Wiehle 2013, 6.25 mg po m.d., n=16",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Wiehle 2013, (E)-clomiphene, 6.25 mg po m.d.",
+                "Color": "#0000FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "Ratiopharm 1991, 21 mg po s.d.",
+                "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Ratiopharm 1991, (E)-clomiphene, 21 mg po s.d.",
+                "Color": "#0000FF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SectionId": 322,
+        "Title": "(E)-4-Hydroxyclomiphene observed versus simulated plasma concentration-time data",
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure"
+        ],
+        "Groups": [
+          {
+            "Caption": "(E)-4-hydroxyclomiphene",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=1, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "Color": "#FF00FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=2, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "Color": "#FF00FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0.5, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "Color": "#FF00FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0.75, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "Color": "#FF00FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "Color": "#FF00FF"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=3, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "Color": "#FF00FF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SectionId": 323,
+        "Title": "(E)-N-Desethylclomiphene observed versus simulated plasma concentration-time data",
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure"
+        ],
+        "Groups": [
+          {
+            "Caption": "(E)-N-desethylclomiphene",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
+                "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=1, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#FF8000"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
+                "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=2, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#FF8000"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
+                "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0.5, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#FF8000"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
+                "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0.75, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#FF8000"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
+                "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#FF8000"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
+                "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=3, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#FF8000"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "SectionId": 324,
+        "Title": "(E)-4-Hydroxy-N-desethylclomiphene observed versus simulated plasma concentration-time data",
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure"
+        ],
+        "Groups": [
+          {
+            "Caption": "(E)-4-hydroxy-N-desethylclomiphene",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=1, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#00A000"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=2, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#00A000"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0.5, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#00A000"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0.75, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#00A000"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=0, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#00A000"
+              },
+              {
+                "Project": "Clomiphene",
+                "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
+                "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "IKP AS=3, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "Color": "#00A000"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Inputs": [
+    {
+      "Project": "Clomiphene",
+      "Name": "(E)-clomiphene",
+      "Type": "Compound",
+      "SectionId": 31
+    },
+    {
+      "Project": "Clomiphene",
+      "Name": "(E)-N-desethylclomiphene",
+      "Type": "Compound",
+      "SectionId": 31
+    },
+    {
+      "Project": "Clomiphene",
+      "Name": "(E)-4-hydroxyclomiphene",
+      "Type": "Compound",
+      "SectionId": 31
+    },
+    {
+      "Project": "Clomiphene",
+      "Name": "(E)-4-hydroxy-N-desethylclomiphene",
+      "Type": "Compound",
+      "SectionId": 31
+    }
+  ],
+  "Sections": [
+    {
+      "Id": 1,
+      "Title": "Introduction",
+      "Content": "Content/Section1_Introduction.md"
+    },
+    {
+      "Id": 2,
+      "Title": "Methods",
+      "Sections": [
+        {
+          "Id": 21,
+          "Title": "Modeling strategy",
+          "Content": "Content/Section2.1_Modeling_Strategy.md"
+        },
+        {
+          "Id": 22,
+          "Title": "Data used",
+          "Content": "Content/Section2.2_Data.md"
+        },
+        {
+          "Id": 23,
+          "Title": "Model parameters and assumptions",
+          "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Title": "Results and Discussion",
+      "Content": "Content/Section3_Results_and_Discussion.md",
+      "Sections": [
+        {
+          "Id": 31,
+          "Title": "Clomiphene final input parameters",
+          "Content": "Content/Input_table.md"
+        },
+        {
+          "Id": 32,
+          "Title": "Diagnostic plots",
+          "Content": "Content/GOF_diagnostics.md",
+          "Sections": [
+            {
+              "Id": 321,
+              "Title": "(E)-Clomiphene goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_e_clomiphene.md"
+            },
+            {
+              "Id": 322,
+              "Title": "(E)-4-Hydroxyclomiphene goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_e_4_hydroxyclomiphene.md"
+            },
+            {
+              "Id": 323,
+              "Title": "(E)-N-Desethylclomiphene goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_e_n_desethylclomiphene.md"
+            },
+            {
+              "Id": 324,
+              "Title": "(E)-4-Hydroxy-N-desethylclomiphene goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_e_4_hydroxy_n_desethylclomiphene.md"
+            }
+          ]
+        },
+        {
+          "Id": 33,
+          "Title": "Concentration-time profiles",
+          "Content": "Content/Concentration_time_profiles.md",
+          "Sections": [
+            {
+              "Id": 331,
+              "Title": "CYP2D6 DGI panel study",
+              "Content": "Content/Concentration_time_profiles_dgi_panel.md"
+            },
+            {
+              "Id": 332,
+              "Title": "Literature studies",
+              "Content": "Content/Concentration_time_profiles_literature.md"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Title": "Conclusion",
+      "Content": "Content/Section4_Conclusion.md"
+    },
+    {
+      "Id": 5,
+      "Title": "References",
+      "Content": "Content/References.md"
+    }
+  ],
+  "Intro": [
+    {
+      "Path": "Content/titlepage.md"
+    }
+  ]
+}

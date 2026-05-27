@@ -1,0 +1,1 @@
+The literature study profiles include oral single-dose and multiple-dose (E)-clomiphene data. These profiles provide additional evaluation of parent-compound disposition across dosing conditions outside the CYP2D6 activity-score panel study.
