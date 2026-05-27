@@ -2,7 +2,8 @@ name: CrossRefCheck with Anchors
 
 on:
   push:
-  pull_request:
+    branches:
+      - review
 
 permissions:
   contents: read
@@ -11,4 +12,4 @@ jobs:
   crossref-check-with-anchors:
     uses: Open-Systems-Pharmacology/Workflows/.github/workflows/MarkdownCrossrefCheck_withAnchors.yml@5e78d9c26dd9b1fd131ce69da7532dd5f82a8801
     with:
-      folder-path: '.'
+      folder-path: 'Evaluation/report'
