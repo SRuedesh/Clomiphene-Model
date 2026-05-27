@@ -20,7 +20,7 @@ Clomiphene elimination is represented by CYP2D6-dependent hydroxylation and dese
 
 * CYP2D6
 
-CYP2D6 is the central enzyme for DGI behavior in the model. CYP2D6 forms (E)-4-hydroxyclomiphene from (E)-clomiphene and contributes to desethylation and downstream metabolite elimination. K<sub>m</sub> values are pathway-specific, while k<sub>cat</sub> values are activity-score dependent [[1](#5-references), [7](#5-references)].
+CYP2D6 is the central enzyme for DGI behavior in the model. It forms (E)-4-hydroxyclomiphene from (E)-clomiphene and contributes to desethylation and downstream metabolite elimination. Pathway-specific K<sub>m</sub> values are used, while k<sub>cat</sub> values depend on activity score [[1](#5-references), [7](#5-references)].
 
 The CYP2D6 activity-score implementation is the key determinant of simulated exposure differences across poor, intermediate, normal and ultrarapid metabolizer groups. Poor-metabolizer activity is set to zero, while non-zero activity-score groups use scaled k<sub>cat</sub> values.
 
@@ -47,4 +47,4 @@ The following parameters were optimized by fitting the model to clinical data:
 | Lipophilicity and f<sub>u</sub> values where direct source support was insufficient |
 | Specific intestinal permeability and tablet formulation parameters |
 
-The optimized parameters were selected to describe oral formulation behavior, CYP2D6 activity-score dependent parent-metabolite disposition and residual metabolite elimination across the available clinical data. Literature-supported physicochemical inputs and binding parameters were retained as fixed model inputs where possible.
+The optimized parameters were selected to describe oral formulation behavior, CYP2D6 activity-score-dependent parent-metabolite disposition and residual metabolite elimination across the available clinical data. Literature-supported physicochemical inputs and binding parameters were retained as fixed model inputs where possible.

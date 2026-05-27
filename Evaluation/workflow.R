@@ -57,6 +57,7 @@ createQualificationReport <- function(qualificationRunnerFolder,
     configurationPlanFile = configurationPlanFile
   )
   workflow$reportFilePath <- file.path(workingDirectory, "report", "report.md")
+  dir.create(dirname(workflow$reportFilePath), recursive = TRUE, showWarnings = FALSE)
   workflow$createWordReport <- createWordReport
   if (!is.null(maxSimulationsPerCore)) {
     if (!is.numeric(maxSimulationsPerCore) ||

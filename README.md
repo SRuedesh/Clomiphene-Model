@@ -3,7 +3,7 @@ Whole-body parent-metabolite PBPK model of (E)-clomiphene and its metabolites in
 
 This repository contains the (E)-clomiphene model originally published by Kovar et al. [[1](#references)].
 
-The model was developed and evaluated using clinical plasma pharmacokinetic data after oral clomiphene or enclomiphene administration by Kovar et al. [[1](#references)], Mikkelson et al. [[3](#references)], Ratiopharm GmbH [[4](#references)], Wiehle et al. [[5](#references)] and Miller et al. [[6](#references)].
+The model was developed and evaluated using clinical plasma pharmacokinetic data after oral clomiphene or enclomiphene administration by Kovar et al. [[1](#references)], Mikkelson et al. [[2](#references)], Ratiopharm GmbH [[3](#references)], Wiehle et al. [[4](#references)] and Miller et al. [[5](#references)].
 
 Users of the model are expected to cite this study when using the model in scientific work, reports or derivative model development:
 - [C Kovar, L Kovar, S Rüdesheim, D Selzer, B Ganchev, P Kröner, S Igel, R Kerb, E Schaeffeler, T E Mürdter, M Schwab, T Lehr. Prediction of Drug-Drug-Gene Interaction Scenarios of (E)-Clomiphene and Its Metabolites Using Physiologically Based Pharmacokinetic Modeling. Pharmaceutics, 2022;14:2604.](https://doi.org/10.3390/pharmaceutics14122604)
@@ -26,7 +26,7 @@ This repository contains:
 - static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
 - an evaluation plan (evaluation_plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
 
-**The latest release of the snapshot of the model, the evaluation plan and the static content can be found in the [latest release in this repository](../../releases/latest).**
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found in the [latest release in this repository](https://github.com/Open-Systems-Pharmacology/Clomiphene-Model/releases/latest).**
 
 **The latest release of the PK-Sim project model file and the respective evaluation report can be found in the [latest OSP PBPK Model Library release](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
 

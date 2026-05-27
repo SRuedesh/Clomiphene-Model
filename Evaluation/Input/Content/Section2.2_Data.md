@@ -2,7 +2,7 @@
 
 Drug-dependent input parameters for (E)-clomiphene and its metabolites were taken from the published clomiphene PBPK model and the cited primary sources therein [[1](#5-references)]. The key physicochemical properties include molecular weight, pK<sub>a</sub>, lipophilicity, solubility, fraction unbound in plasma and intestinal permeability. Compound-specific values are used for the parent and each metabolite because polarity, protein binding and elimination differ across the metabolic sequence.
 
-CYP2D6 K<sub>m</sub> values are based on in vitro metabolism data for clomiphene and its metabolites, with nonspecific in vitro binding accounted for in the model development workflow [[1](#5-references), [7](#5-references)]. Activity-score dependent k<sub>cat</sub> values were identified for normal metabolizers and scaled to additional CYP2D6 activity-score groups using pathway-specific in vitro scaling factors [[1](#5-references), [2](#5-references)].
+CYP2D6 K<sub>m</sub> values are based on in vitro metabolism data for clomiphene and its metabolites, with nonspecific in vitro binding accounted for in the model development workflow [[1](#5-references), [7](#5-references)]. Activity-score-dependent k<sub>cat</sub> values were identified for normal metabolizers and scaled to additional CYP2D6 activity-score groups using pathway-specific in vitro scaling factors [[1](#5-references), [2](#5-references)].
 
 | Parameter group | Model use | Main source |
 | --- | --- | --- |
