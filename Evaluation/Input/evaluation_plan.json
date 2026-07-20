@@ -260,42 +260,42 @@
                 "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=1, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=2, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.5, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.75, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=3, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#FF8000"
               }
             ]
           }
@@ -323,42 +323,42 @@
                 "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=1, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#008000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=2, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#008000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.5, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#008000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.75, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#008000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#008000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=3, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#008000"
               }
             ]
           }
@@ -386,42 +386,42 @@
                 "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=1, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#00A000"
+                "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=2, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#00A000"
+                "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.5, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#00A000"
+                "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.75, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#00A000"
+                "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#00A000"
+                "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=3, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#00A000"
+                "Color": "#FF00FF"
               }
             ]
           }
