@@ -5,7 +5,7 @@
 
 | Version                                         | vx.x                                                        |
 | ----------------------------------------------- | ----------------------------------------------------------- |
-| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Clomiphene-Model/tree/72d6a2a62eeb0fce5db569b58d9f4a1120df6fcc |
+| based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Clomiphene-Model/releases/tag/v1.0 |
 | OSP Version                                     | x.x                                                         |
 | Qualification Framework Version                 | y.y                                                         |
 
