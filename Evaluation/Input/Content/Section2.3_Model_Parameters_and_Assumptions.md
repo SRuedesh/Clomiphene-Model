@@ -33,18 +33,3 @@ Residual hepatic clearance terms are empirical. They should be interpreted as st
 * Renal filtration and enterohepatic recirculation
 
 Renal filtration is included with compound-specific GFR fractions for the parent and metabolites. Enterohepatic recirculation is represented with continuous bile release fractions where required by the model structure.
-
-### 2.3.4 Automated parameter identification
-
-The following parameters were optimized by fitting the model to clinical data:
-
-| Model parameter |
-| --- |
-| CYP2D6 k<sub>cat</sub> values for parent and metabolite pathways |
-| CYP3A4 and CYP2B6 k<sub>cat</sub> values |
-| Residual hepatic clearance terms |
-| GFR fractions |
-| Lipophilicity and f<sub>u</sub> values where direct source support was insufficient |
-| Specific intestinal permeability and tablet formulation parameters |
-
-The optimized parameters were selected to describe oral formulation behavior, CYP2D6 activity-score-dependent parent-metabolite disposition and residual metabolite elimination across the available clinical data. Literature-supported physicochemical inputs and binding parameters were retained as fixed model inputs where possible.
