@@ -4,7 +4,7 @@
 
 [3] [T J Mikkelson, P D Kroboth, W J Cameron, L W Dittert, V Chungi, P J Manberg. Single-dose pharmacokinetics of clomiphene citrate in normal volunteers. Fertil Steril, 1986;46:392-396.](https://doi.org/10.1016/S0015-0282(16)49574-9)
 
-[4] [Ratiopharm GmbH. Clomifen-ratiopharm 50 mg Tabletten, Fachinformation, 2016.](https://www.ratiopharm.de/produkte/details/praeparate/praeparatedaten/detail/pzn3884844.html)
+[4] Ratiopharm GmbH. Clomifen-ratiopharm 50 mg Tabletten, Fachinformation, 2016.
 
 [5] [R Wiehle, G R Cunningham, N Pitteloud, J Wike, K Hsu, G K Fontenot, M Rosner, A Dwyer, J Podolski. Testosterone Restoration by Enclomiphene Citrate in Men with Secondary Hypogonadism: Pharmacodynamics and Pharmacokinetics. BJU Int, 2013;112:1188-1200.](https://doi.org/10.1111/bju.12363)
 
