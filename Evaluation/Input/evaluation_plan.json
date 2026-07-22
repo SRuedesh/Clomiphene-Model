@@ -134,16 +134,16 @@
     ],
     "GOFMergedPlots": [
       {
-        "SectionId": 321,
-        "Title": "(E)-Clomiphene observed versus simulated plasma concentration-time data",
-        "PlotTypes": [
-          "predictedVsObserved",
-          "residualsOverTime"
-        ],
+        "Title": "Observed versus simulated concentration-time data for all modeled compounds",
+        "SectionId": 32,
         "Artifacts": [
           "Plot",
           "GMFE",
           "Measure"
+        ],
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
         ],
         "Groups": [
           {
@@ -235,193 +235,148 @@
                 "Color": "#0000FF"
               }
             ]
-          }
-        ]
-      },
-      {
-        "SectionId": 322,
-        "Title": "(E)-4-Hydroxyclomiphene observed versus simulated plasma concentration-time data",
-        "PlotTypes": [
-          "predictedVsObserved",
-          "residualsOverTime"
-        ],
-        "Artifacts": [
-          "Plot",
-          "GMFE",
-          "Measure"
-        ],
-        "Groups": [
+          },
           {
             "Caption": "(E)-4-hydroxyclomiphene",
-            "Symbol": "Circle",
+            "Symbol": "Square",
             "OutputMappings": [
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=1, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=2, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.5, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.75, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=3, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
-                "Color": "#FF8000"
+                "Color": "#FF00FF"
               }
             ]
-          }
-        ]
-      },
-      {
-        "SectionId": 323,
-        "Title": "(E)-N-Desethylclomiphene observed versus simulated plasma concentration-time data",
-        "PlotTypes": [
-          "predictedVsObserved",
-          "residualsOverTime"
-        ],
-        "Artifacts": [
-          "Plot",
-          "GMFE",
-          "Measure"
-        ],
-        "Groups": [
+          },
           {
             "Caption": "(E)-N-desethylclomiphene",
-            "Symbol": "Circle",
+            "Symbol": "Triangle",
             "OutputMappings": [
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=1, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#008000"
+                "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=2, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#008000"
+                "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.5, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#008000"
+                "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.75, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#008000"
+                "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#008000"
+                "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=3, (E)-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#008000"
+                "Color": "#FF8000"
               }
             ]
-          }
-        ]
-      },
-      {
-        "SectionId": 324,
-        "Title": "(E)-4-Hydroxy-N-desethylclomiphene observed versus simulated plasma concentration-time data",
-        "PlotTypes": [
-          "predictedVsObserved",
-          "residualsOverTime"
-        ],
-        "Artifacts": [
-          "Plot",
-          "GMFE",
-          "Measure"
-        ],
-        "Groups": [
+          },
           {
             "Caption": "(E)-4-hydroxy-N-desethylclomiphene",
-            "Symbol": "Circle",
+            "Symbol": "Diamond",
             "OutputMappings": [
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=1, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#00A000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=2, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#00A000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.5, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#00A000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0.75, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#00A000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=0, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#00A000"
               },
               {
                 "Project": "Clomiphene",
                 "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "IKP AS=3, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
-                "Color": "#FF00FF"
+                "Color": "#00A000"
               }
             ]
           }
@@ -495,29 +450,7 @@
         {
           "Id": 32,
           "Title": "Diagnostic plots",
-          "Content": "Content/GOF_diagnostics.md",
-          "Sections": [
-            {
-              "Id": 321,
-              "Title": "(E)-Clomiphene goodness-of-fit diagnostics",
-              "Content": "Content/GOF_diagnostics_e_clomiphene.md"
-            },
-            {
-              "Id": 322,
-              "Title": "(E)-4-Hydroxyclomiphene goodness-of-fit diagnostics",
-              "Content": "Content/GOF_diagnostics_e_4_hydroxyclomiphene.md"
-            },
-            {
-              "Id": 323,
-              "Title": "(E)-N-Desethylclomiphene goodness-of-fit diagnostics",
-              "Content": "Content/GOF_diagnostics_e_n_desethylclomiphene.md"
-            },
-            {
-              "Id": 324,
-              "Title": "(E)-4-Hydroxy-N-desethylclomiphene goodness-of-fit diagnostics",
-              "Content": "Content/GOF_diagnostics_e_4_hydroxy_n_desethylclomiphene.md"
-            }
-          ]
+          "Content": "Content/GOF_diagnostics.md"
         },
         {
           "Id": 33,

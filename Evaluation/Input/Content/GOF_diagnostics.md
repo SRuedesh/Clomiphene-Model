@@ -1,1 +1,1 @@
-Goodness-of-fit diagnostics are shown separately for each analyte. This layout keeps parent and metabolite observations visually distinct and supports interpretation of CYP2D6 activity-score-dependent parent-metabolite behavior.
+The goodness-of-fit diagnostics combine all modeled compounds in one set of plots. Colors and symbols identify compounds consistently with the concentration-time profiles. Administration route, formulation, and model-building or verification status are not used to split the diagnostics.

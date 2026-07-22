@@ -40,12 +40,12 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
 ## References
-[1] [C Kovar, L Kovar, S Rüdesheim, D Selzer, B Ganchev, P Kröner, S Igel, R Kerb, E Schaeffeler, T E Mürdter, M Schwab, T Lehr. Prediction of Drug-Drug-Gene Interaction Scenarios of (E)-Clomiphene and Its Metabolites Using Physiologically Based Pharmacokinetic Modeling. Pharmaceutics, 2022;14:2604.](https://doi.org/10.3390/pharmaceutics14122604)
+[1] C Kovar, L Kovar, S Rüdesheim, D Selzer, B Ganchev, P Kröner, S Igel, R Kerb, E Schaeffeler, T E Mürdter, M Schwab, T Lehr. Prediction of Drug-Drug-Gene Interaction Scenarios of (E)-Clomiphene and Its Metabolites Using Physiologically Based Pharmacokinetic Modeling. Pharmaceutics, 2022;14:2604. doi: [10.3390/pharmaceutics14122604](https://doi.org/10.3390/pharmaceutics14122604).
 
-[2] [T J Mikkelson, P D Kroboth, W J Cameron, L W Dittert, V Chungi, P J Manberg. Single-dose pharmacokinetics of clomiphene citrate in normal volunteers. Fertil Steril, 1986;46:392-396.](https://doi.org/10.1016/S0015-0282(16)49574-9)
+[2] T J Mikkelson, P D Kroboth, W J Cameron, L W Dittert, V Chungi, P J Manberg. Single-dose pharmacokinetics of clomiphene citrate in normal volunteers. Fertil Steril, 1986;46:392-396. doi: [10.1016/S0015-0282(16)49574-9](https://doi.org/10.1016/S0015-0282(16)49574-9).
 
-[3] [Ratiopharm GmbH. Clomifen-ratiopharm 50 mg Tabletten, Fachinformation, 2016.](https://www.ratiopharm.de/produkte/details/praeparate/praeparatedaten/detail/pzn3884844.html)
+[3] Ratiopharm GmbH. Clomifen-ratiopharm 50 mg Tabletten, Fachinformation, 2016.
 
-[4] [R Wiehle, G R Cunningham, N Pitteloud, J Wike, K Hsu, G K Fontenot, M Rosner, A Dwyer, J Podolski. Testosterone Restoration by Enclomiphene Citrate in Men with Secondary Hypogonadism: Pharmacodynamics and Pharmacokinetics. BJU Int, 2013;112:1188-1200.](https://doi.org/10.1111/bju.12363)
+[4] R Wiehle, G R Cunningham, N Pitteloud, J Wike, K Hsu, G K Fontenot, M Rosner, A Dwyer, J Podolski. Testosterone Restoration by Enclomiphene Citrate in Men with Secondary Hypogonadism: Pharmacodynamics and Pharmacokinetics. BJU Int, 2013;112:1188-1200. doi: [10.1111/bju.12363](https://doi.org/10.1111/bju.12363).
 
-[5] [G D Miller, C Moore, V Nair, B Hill, S E Willick, A D Rogol, D Eichner. Hypothalamic-Pituitary-Testicular Axis Effects and Urinary Detection Following Clomiphene Administration in Males. J Clin Endocrinol Metab, 2019;104:906-914.](https://doi.org/10.1210/jc.2018-01159)
+[5] G D Miller, C Moore, V Nair, B Hill, S E Willick, A D Rogol, D Eichner. Hypothalamic-Pituitary-Testicular Axis Effects and Urinary Detection Following Clomiphene Administration in Males. J Clin Endocrinol Metab, 2019;104:906-914. doi: [10.1210/jc.2018-01159](https://doi.org/10.1210/jc.2018-01159).
