@@ -6,7 +6,7 @@ Drug-dependent parameters for (E)-clomiphene and its metabolites were taken from
 | --- | ---: | ---: | --- | --- |
 | **(E)-Clomiphene** |  |  |  |  |
 | MW | g/mol | 405.96 | [Siramshetty 2022](#5) | Molecular weight. |
-| pK<sub>a</sub> | - | 9.31<sup>a</sup> | [ChemAxon 2009](#5) | Acid dissociation constant. |
+| pK<sub>a</sub>,base | - | 9.31 | [ChemAxon 2009](#5) | pKa of a basic ionization site. |
 | Solubility | mg/mL | 0.0138 | [Das 2020](#5) | Aqueous solubility at pH 6.8. |
 | logP | - | 5.67 | Optimized | Octanol-water partition coefficient of the neutral species. |
 | f<sub>u</sub> | % | 0.08 | Optimized | Fraction unbound in plasma. |
@@ -26,7 +26,7 @@ Drug-dependent parameters for (E)-clomiphene and its metabolites were taken from
 | Weibull shape | - | 0.47 | Assumed | Shape parameter of the Weibull dissolution function. |
 | **(E)-N-desethylclomiphene** |  |  |  |  |
 | MW | g/mol | 377.91 | [ChemAxon 2009](#5) | Molecular weight. |
-| pK<sub>a</sub> | - | 8.14<sup>a</sup> | Optimized | Acid dissociation constant. |
+| pK<sub>a</sub>,base | - | 8.14 | Optimized | pKa of a basic ionization site. |
 | Solubility | mg/mL | 0.46 | [ChemAxon 2009](#5) | Aqueous solubility at pH 6.5. |
 | logP | - | 4.17 | Optimized | Octanol-water partition coefficient of the neutral species. |
 | f<sub>u</sub> | % | 0.86 | Optimized | Fraction unbound in plasma. |
@@ -40,8 +40,8 @@ Drug-dependent parameters for (E)-clomiphene and its metabolites were taken from
 | Cellular permeabilities | - | Charge-dependent Schmitt | [Kawai 1994](#5) | Cellular permeabilities calculated with the charge-dependent Schmitt method. |
 | **(E)-4-hydroxyclomiphene** |  |  |  |  |
 | MW | g/mol | 421.97 | [ChemAxon 2009](#5) | Molecular weight. |
-| pK<sub>a</sub> | - | 8.64<sup>b</sup> | [ChemAxon 2009](#5) | Acid dissociation constant. |
-| pK<sub>a</sub> | - | 7.90<sup>a</sup> | Optimized | Acid dissociation constant. |
+| pK<sub>a</sub>,acid | - | 8.64 | [ChemAxon 2009](#5) | pKa of an acidic ionization site. |
+| pK<sub>a</sub>,base | - | 7.90 | Optimized | pKa of a basic ionization site. |
 | Solubility | mg/mL | 0.06 | [ChemAxon 2009](#5) | Aqueous solubility at pH 6.5. |
 | logP | - | 5.50 | Optimized | Octanol-water partition coefficient of the neutral species. |
 | f<sub>u</sub> | % | 0.45 | Optimized | Fraction unbound in plasma. |
@@ -55,8 +55,8 @@ Drug-dependent parameters for (E)-clomiphene and its metabolites were taken from
 | Cellular permeabilities | cm/min | 2.23 | [OSP Suite Manual 2021](#5) | Calculated cellular permeability. |
 | **(E)-4-hydroxy-N-desethylclomiphene** |  |  |  |  |
 | MW | g/mol | 393.91 | [ChemAxon 2009](#5) | Molecular weight. |
-| pK<sub>a</sub> | - | 8.69<sup>b</sup> | [ChemAxon 2009](#5) | Acid dissociation constant. |
-| pK<sub>a</sub> | - | 9.65<sup>a</sup> | [ChemAxon 2009](#5) | Acid dissociation constant. |
+| pK<sub>a</sub>,acid | - | 8.69 | [ChemAxon 2009](#5) | pKa of an acidic ionization site. |
+| pK<sub>a</sub>,base | - | 9.65 | [ChemAxon 2009](#5) | pKa of a basic ionization site. |
 | Solubility | mg/mL | 0.17 | [ChemAxon 2009](#5) | Aqueous solubility at pH 6.5. |
 | logP | - | 3.71 | Optimized | Octanol-water partition coefficient of the neutral species. |
 | f<sub>u</sub> | % | 1.32 | [Watanabe 2018](#5) | Fraction unbound in plasma. |
@@ -68,8 +68,6 @@ Drug-dependent parameters for (E)-clomiphene and its metabolites were taken from
 | Cellular permeabilities | - | Charge-dependent Schmitt | [Kawai 1994](#5) | Cellular permeabilities calculated with the charge-dependent Schmitt method. |
 
 **Table 1:**<a name="table-1"></a> Drug-dependent parameters used in the final clomiphene model. Original sources are those assigned in Supplement Tables S4-S7 of [Kovar 2022](#5).
-
-<sup>a</sup> Basic. <sup>b</sup> Acidic.
 
 <sup>e</sup> Other metabolite: an undefined downstream product represented as an elimination pathway in the model.
 
