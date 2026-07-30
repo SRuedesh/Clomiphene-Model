@@ -73,69 +73,69 @@
     "AllPlots": [
       {
         "Project": "Clomiphene",
-        "Simulation": "Wiehle 2013, 6.25 mg po m.d., n=16",
-        "SectionId": 332
-      },
-      {
-        "Project": "Clomiphene",
-        "Simulation": "Wiehle 2013, 12.5 mg po m.d., n=14",
-        "SectionId": 332
-      },
-      {
-        "Project": "Clomiphene",
-        "Simulation": "Mikkelson 1986, 21 mg po s.d.",
-        "SectionId": 332
-      },
-      {
-        "Project": "Clomiphene",
-        "Simulation": "Miller 2019, 21 mg po m.d., n=12",
-        "SectionId": 332
-      },
-      {
-        "Project": "Clomiphene",
-        "Simulation": "Ratiopharm 1991, 21 mg po s.d.",
-        "SectionId": 332
-      },
-      {
-        "Project": "Clomiphene",
-        "Simulation": "Wiehle 2013, 25 mg po m.d., n=16",
-        "SectionId": 332
-      },
-      {
-        "Project": "Clomiphene",
-        "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
+        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=6 (AS=0)",
         "SectionId": 331
       },
       {
         "Project": "Clomiphene",
-        "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
+        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5)",
         "SectionId": 331
       },
       {
         "Project": "Clomiphene",
-        "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
+        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75)",
         "SectionId": 331
       },
       {
         "Project": "Clomiphene",
-        "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
+        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1)",
         "SectionId": 331
       },
       {
         "Project": "Clomiphene",
-        "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
+        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=2)",
         "SectionId": 331
       },
       {
         "Project": "Clomiphene",
-        "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
+        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3)",
         "SectionId": 331
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Mikkelson (1986) - (E)-clomiphene, 21 mg, po, n=23",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Miller (2019) - (E)-clomiphene, 21 mg, po, md, n=12",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Ratiopharm GmbH (2016) - (E)-clomiphene, 21 mg, po, n=18",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Wiehle (2013) - enclomiphene citrate, 12.5 mg, po, md, n=14",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Wiehle (2013) - enclomiphene citrate, 25 mg, po, md, n=16",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Wiehle (2013) - enclomiphene citrate, 6.25 mg, po, md, n=16",
+        "SectionId": 332
       }
     ],
     "GOFMergedPlots": [
-      {
-        "Title": "Observed versus simulated concentration-time data for all modeled compounds",
-        "SectionId": 32,
+{
+        "Title": "(E)-Clomiphene goodness-of-fit diagnostics",
+        "SectionId": 321,
         "Artifacts": [
           "Plot",
           "GMFE",
@@ -152,230 +152,275 @@
             "OutputMappings": [
               {
                 "Project": "Clomiphene",
-                "Simulation": "Mikkelson 1986, 21 mg po s.d.",
+                "Simulation": "Mikkelson (1986) - (E)-clomiphene, 21 mg, po, n=23",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "Mikkelson 1986, (E)-clomiphene, 21 mg po s.d.",
+                "ObservedData": "Mikkelson (1986) - (E)-clomiphene, 21 mg, po, n=23, (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=1, (E)-clomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1), (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=2)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=2, (E)-clomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=2), (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0.5, (E)-clomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5), (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0.75, (E)-clomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75), (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=6 (AS=0)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0, (E)-clomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=6 (AS=0), (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=3, (E)-clomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3), (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "Miller 2019, 21 mg po m.d., n=12",
+                "Simulation": "Miller (2019) - (E)-clomiphene, 21 mg, po, md, n=12",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "Miller 2019, (E)-clomiphene, 21 mg po m.d.",
+                "ObservedData": "Miller (2019) - (E)-clomiphene, 21 mg, po, md, n=12, (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "Wiehle 2013, 12.5 mg po m.d., n=14",
+                "Simulation": "Wiehle (2013) - enclomiphene citrate, 12.5 mg, po, md, n=14",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "Wiehle 2013, (E)-clomiphene, 12.5 mg po m.d.",
+                "ObservedData": "Wiehle (2013) - enclomiphene citrate, 12.5 mg, po, md, n=14, (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "Wiehle 2013, 25 mg po m.d., n=16",
+                "Simulation": "Wiehle (2013) - enclomiphene citrate, 25 mg, po, md, n=16",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "Wiehle 2013, (E)-clomiphene, 25 mg po m.d.",
+                "ObservedData": "Wiehle (2013) - enclomiphene citrate, 25 mg, po, md, n=16, (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "Wiehle 2013, 6.25 mg po m.d., n=16",
+                "Simulation": "Wiehle (2013) - enclomiphene citrate, 6.25 mg, po, md, n=16",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "Wiehle 2013, (E)-clomiphene, 6.25 mg po m.d.",
+                "ObservedData": "Wiehle (2013) - enclomiphene citrate, 6.25 mg, po, md, n=16, (E)-clomiphene",
                 "Color": "#0000FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "Ratiopharm 1991, 21 mg po s.d.",
+                "Simulation": "Ratiopharm GmbH (2016) - (E)-clomiphene, 21 mg, po, n=18",
                 "Output": "Organism|PeripheralVenousBlood|(E)-clomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "Ratiopharm 1991, (E)-clomiphene, 21 mg po s.d.",
+                "ObservedData": "Ratiopharm GmbH (2016) - (E)-clomiphene, 21 mg, po, n=18, (E)-clomiphene",
                 "Color": "#0000FF"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "Title": "(E)-4-Hydroxyclomiphene goodness-of-fit diagnostics",
+        "SectionId": 322,
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure"
+        ],
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
+        "Groups": [
           {
             "Caption": "(E)-4-hydroxyclomiphene",
             "Symbol": "Square",
             "OutputMappings": [
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=1, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1), (E)-4-hydroxyclomiphene",
                 "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=2)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=2, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=2), (E)-4-hydroxyclomiphene",
                 "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0.5, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5), (E)-4-hydroxyclomiphene",
                 "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0.75, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75), (E)-4-hydroxyclomiphene",
                 "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=6 (AS=0)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=6 (AS=0), (E)-4-hydroxyclomiphene",
                 "Color": "#FF00FF"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxyclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=3, (E)-4-hydroxyclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3), (E)-4-hydroxyclomiphene",
                 "Color": "#FF00FF"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "Title": "(E)-N-desethylclomiphene goodness-of-fit diagnostics",
+        "SectionId": 323,
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure"
+        ],
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
+        "Groups": [
           {
             "Caption": "(E)-N-desethylclomiphene",
             "Symbol": "Triangle",
             "OutputMappings": [
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=1, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1), (E)-N-desethylclomiphene",
                 "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=2)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=2, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=2), (E)-N-desethylclomiphene",
                 "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0.5, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5), (E)-N-desethylclomiphene",
                 "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0.75, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75), (E)-N-desethylclomiphene",
                 "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=6 (AS=0)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=6 (AS=0), (E)-N-desethylclomiphene",
                 "Color": "#FF8000"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=3, (E)-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3), (E)-N-desethylclomiphene",
                 "Color": "#FF8000"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "Title": "(E)-4-Hydroxy-N-desethylclomiphene goodness-of-fit diagnostics",
+        "SectionId": 324,
+        "Artifacts": [
+          "Plot",
+          "GMFE",
+          "Measure"
+        ],
+        "PlotTypes": [
+          "predictedVsObserved",
+          "residualsOverTime"
+        ],
+        "Groups": [
           {
             "Caption": "(E)-4-hydroxy-N-desethylclomiphene",
             "Symbol": "Diamond",
             "OutputMappings": [
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=1, 42 mg po s.d., n=2",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=1, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1), (E)-4-hydroxy-N-desethylclomiphene",
                 "Color": "#00A000"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=2, 42 mg po s.d., n=3",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=2)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=2, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=2), (E)-4-hydroxy-N-desethylclomiphene",
                 "Color": "#00A000"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0.5, 42 mg po s.d., n=4",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0.5, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5), (E)-4-hydroxy-N-desethylclomiphene",
                 "Color": "#00A000"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0.75, 42 mg po s.d., n=1",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0.75, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75), (E)-4-hydroxy-N-desethylclomiphene",
                 "Color": "#00A000"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=0, 42 mg po s.d., n=6",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=6 (AS=0)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=0, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=6 (AS=0), (E)-4-hydroxy-N-desethylclomiphene",
                 "Color": "#00A000"
               },
               {
                 "Project": "Clomiphene",
-                "Simulation": "IKP AS=3, 42 mg po s.d., n=3",
+                "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3)",
                 "Output": "Organism|PeripheralVenousBlood|(E)-4-hydroxy-N-desethylclomiphene|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "IKP AS=3, (E)-4-hydroxy-N-desethylclomiphene, 42 mg po s.d.",
+                "ObservedData": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3), (E)-4-hydroxy-N-desethylclomiphene",
                 "Color": "#00A000"
               }
             ]
@@ -450,7 +495,29 @@
         {
           "Id": 32,
           "Title": "Diagnostic plots",
-          "Content": "Content/GOF_diagnostics.md"
+          "Content": "Content/GOF_diagnostics.md",
+          "Sections": [
+            {
+              "Id": 321,
+              "Title": "(E)-Clomiphene goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_e_clomiphene.md"
+            },
+            {
+              "Id": 322,
+              "Title": "(E)-4-Hydroxyclomiphene goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_e_4_hydroxyclomiphene.md"
+            },
+            {
+              "Id": 323,
+              "Title": "(E)-N-desethylclomiphene goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_e_n_desethylclomiphene.md"
+            },
+            {
+              "Id": 324,
+              "Title": "(E)-4-Hydroxy-N-desethylclomiphene goodness-of-fit diagnostics",
+              "Content": "Content/GOF_diagnostics_e_4_hydroxy_n_desethylclomiphene.md"
+            }
+          ]
         },
         {
           "Id": 33,
@@ -459,13 +526,13 @@
           "Sections": [
             {
               "Id": 331,
-              "Title": "CYP2D6 DGI panel study",
-              "Content": "Content/Concentration_time_profiles_dgi_panel.md"
+              "Title": "Model Building",
+              "Content": "Content/Concentration_time_profiles_building.md"
             },
             {
               "Id": 332,
-              "Title": "Literature studies",
-              "Content": "Content/Concentration_time_profiles_literature.md"
+              "Title": "Model Verification",
+              "Content": "Content/Concentration_time_profiles_verification.md"
             }
           ]
         }

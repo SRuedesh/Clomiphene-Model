@@ -1,4 +1,4 @@
-# Building and evaluation of a PBPK model for Clomiphene in adults
+# Building and evaluation of a PBPK model for (E)-Clomiphene in CYP2D6 activity-score groups
 
 
 
