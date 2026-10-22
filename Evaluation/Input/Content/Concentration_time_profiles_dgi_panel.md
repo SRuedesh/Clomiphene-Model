@@ -1,1 +1,0 @@
-The Mürdter 2016 panel includes parent and metabolite plasma concentration-time profiles after oral clomiphene citrate administration in CYP2D6 activity-score groups. These profiles are used to assess whether the model captures activity-score-dependent differences in parent-metabolite disposition.

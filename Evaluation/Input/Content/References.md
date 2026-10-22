@@ -1,6 +1,6 @@
 [1] C Kovar, L Kovar, S Rüdesheim, D Selzer, B Ganchev, P Kröner, S Igel, R Kerb, E Schaeffeler, T E Mürdter, M Schwab, T Lehr. Prediction of Drug-Drug-Gene Interaction Scenarios of (E)-Clomiphene and Its Metabolites Using Physiologically Based Pharmacokinetic Modeling. Pharmaceutics, 2022;14:2604. doi: [10.3390/pharmaceutics14122604](https://doi.org/10.3390/pharmaceutics14122604).
 
-[2] S Rüdesheim, H L H Loer, D Feick, F Z Marok, L M Fuhr, D Selzer, D Teutonico, A R P Schneider, J Solodenko, S Frechen, M van der Lee, D J A R Moes, J J Swen, M Schwab, T Lehr. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther, 2025;117:1719-1731. doi: [10.1002/cpt.3604](https://doi.org/10.1002/cpt.3604).
+[2] S Rüdesheim, H L H Loer, D Feick, F Z Marok, L M Fuhr, D Selzer, D Teutonico, A R P Schneider, J Solodenko, S Frechen, M van der Lee, D J A R Moes, J J Swen, M Schwab, T Lehr. A Comprehensive CYP2D6 Drug-Drug-Gene Interaction Network for Application in Precision Dosing and Drug Development. Clin Pharmacol Ther, 2025;117:1718-1731. doi: [10.1002/cpt.3604](https://doi.org/10.1002/cpt.3604).
 
 [3] T J Mikkelson, P D Kroboth, W J Cameron, L W Dittert, V Chungi, P J Manberg. Single-dose pharmacokinetics of clomiphene citrate in normal volunteers. Fertil Steril, 1986;46:392-396. doi: [10.1016/S0015-0282(16)49574-9](https://doi.org/10.1016/S0015-0282(16)49574-9).
 
@@ -14,7 +14,7 @@
 
 [8] T Mürdter. Impact of CYP2D6 genotype and co-medication with paroxetine and clarithromycin on clomiphene metabolism in vivo. Abstracts of the 82nd Annual Meeting of the German Society for Experimental and Clinical Pharmacology and Toxicology (DGPT) in Naunyn-Schmiedeberg's Archives of Pharmacology, 2016.
 
-[9] M Mazzarino, M Biava, X de la Torre, I Fiacco, F Botrè. Characterization of biotransformation pathways of clomiphene, tamoxifen and toremifene as assessed by LC-MS/(MS) following in vitro and excretion studies. Anal Bioanal Chem, 2013;405:5467-5487. doi: [10.1007/s00216-013-6961-7](https://doi.org/10.1007/s00216-013-6961-7).
+[9] M Mazzarino, M Biava, X de la Torre, I Fiacco, F Botrè. Characterization of the biotransformation pathways of clomiphene, tamoxifen and toremifene as assessed by LC-MS/(MS) following in vitro and excretion studies. Anal Bioanal Chem, 2013;405:5467-5487. doi: [10.1007/s00216-013-6961-7](https://doi.org/10.1007/s00216-013-6961-7).
 
 [10] R Watanabe, T Esaki, H Kawashima, Y Natsume-Kitatani, C Nagao, R Ohashi, K Mizuguchi. Predicting Fraction Unbound in Human Plasma from Chemical Structure: Improved Accuracy in the Low Value Ranges. Mol Pharm, 2018;15:5302-5311. doi: [10.1021/acs.molpharmaceut.8b00785](https://doi.org/10.1021/acs.molpharmaceut.8b00785).
 

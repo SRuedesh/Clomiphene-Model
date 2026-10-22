@@ -1,6 +1,6 @@
 ### In vitro and physicochemical data
 
-Drug-dependent parameters for (E)-clomiphene and its metabolites were taken from the published PBPK model and its supplement ([Kovar 2022](#5)). [Table 1](#table-1) gives the physicochemical, distribution, absorption, metabolism, and elimination parameters used in the final model. The Source column identifies the original literature or database named in Supplement Tables S4-S7. It identifies model-fitted and assumed values directly.
+Drug-dependent parameters for (E)-clomiphene and its metabolites were taken from the published PBPK model and its supplement ([Kovar 2022](#5)). [Table 1](#table-1) gives the physicochemical, distribution, absorption, metabolism, and elimination parameters used in the final model. The Source column identifies the original literature or database named in [Kovar 2022](#5). It identifies model-fitted and assumed values directly.
 
 | Parameter | Unit | Value | Source | Description |
 | --- | ---: | ---: | --- | --- |
@@ -52,7 +52,7 @@ Drug-dependent parameters for (E)-clomiphene and its metabolites were taken from
 | GFR fraction | - | 0.24 | Optimized | Fraction used to scale passive glomerular filtration. |
 | EHC fraction | - | 1.00 | Assumed | Fraction released continuously into bile. |
 | Partition coefficients | - | Berezhkovskiy | [Berezhkovskiy 2004](#5) | Tissue-to-plasma partition coefficients calculated with the Berezhkovskiy method. |
-| Cellular permeabilities | cm/min | 2.23 | [OSP Suite Manual 2021](#5) | Calculated cellular permeability. |
+| Cellular permeabilities | cm/min | 2.23 | [Open Systems Pharmacology Suite Community 2021](#5) | Calculated cellular permeability. |
 | **(E)-4-hydroxy-N-desethylclomiphene** |  |  |  |  |
 | MW | g/mol | 393.91 | [ChemAxon 2009](#5) | Molecular weight. |
 | pK<sub>a</sub>,acid | - | 8.69 | [ChemAxon 2009](#5) | pKa of an acidic ionization site. |
@@ -67,9 +67,7 @@ Drug-dependent parameters for (E)-clomiphene and its metabolites were taken from
 | Partition coefficients | - | Schmitt | [Schmitt 2008](#5) | Tissue-to-plasma partition coefficients calculated with the Schmitt method. |
 | Cellular permeabilities | - | Charge-dependent Schmitt | [Kawai 1994](#5) | Cellular permeabilities calculated with the charge-dependent Schmitt method. |
 
-**Table 1:**<a name="table-1"></a> Drug-dependent parameters used in the final clomiphene model. Original sources are those assigned in Supplement Tables S4-S7 of [Kovar 2022](#5).
-
-<sup>e</sup> Other metabolite: an undefined downstream product represented as an elimination pathway in the model.
+**Table 1:**<a name="table-1"></a> Drug-dependent parameters used in the final clomiphene model. Original sources are those assigned in [Kovar 2022](#5). Other metabolite: an undefined downstream product represented as an elimination pathway in the model.
 
 The CYP2D6 activity-score-specific catalytic rates are listed in [Table 1a](#table-1a).
 
@@ -96,25 +94,25 @@ External studies did not report CYP2D6 activity scores or phenotypes. The model 
 | Wiehle 2013, 12.5 mg | 124.1 | 52.8 | 49.1 | 1/min |
 | Wiehle 2013, 25 mg | 43.3 | 18.4 | 17.1 | 1/min |
 
-**Table 1b:**<a name="table-1b"></a> Study-specific optimized CYP2D6 k<sub>cat</sub> values for the external clinical profiles, as reported in Supplement Table S1 of [Kovar 2022](#5).
+**Table 1b:**<a name="table-1b"></a> Study-specific optimized CYP2D6 k<sub>cat</sub> values for the external clinical profiles, as reported in [Kovar 2022](#5).
 
 ### Clinical data
 
-The evaluation includes 12 plasma concentration-time profiles after oral clomiphene or enclomiphene administration ([Table 2](#table-2)). Six activity-score groups from the Mürdter 2016 panel were used for model building. Six external profiles were used for model verification.
+The evaluation includes 12 plasma concentration-time profiles after oral clomiphene or enclomiphene administration ([Table 2](#table-2)). The AS = 0 and AS = 2 groups of the Mürdter 2016 panel were used for model building. The AS = 0.5, 0.75, 1 and 3 groups of the panel and six external profiles were used for model verification. For each external profile, the CYP2D6 k<sub>cat</sub> values were fitted to that profile ([Table 1b](#table-1b)).
 
 | Source | Dose [mg] / schedule\* | Age [years] | Weight [kg] | Sex | N | Form. | CYP2D6 characterization |
 | --- | --- | --- | --- | --- | ---: | --- | --- |
 | [Mikkelson 1986](#5) | 50 clomiphene citrate (21 (E)-clomiphene model dose), oral | 32 | 62.4 | Female | 23 | Tablet | Study-specific CYP2D6 k<sub>cat</sub> |
-| [Miller 2019](#5) | 50 clomiphene citrate (21 (E)-clomiphene model dose), oral, multiple dose | 31.5 ± 3.6 | 77.9 ± 8.2 | Male | 12 | Tablet | Study-specific CYP2D6 k<sub>cat</sub> |
+| [Miller 2019](#5) | 50 clomiphene citrate (21 (E)-clomiphene model dose), oral, once daily for 30 days (model schedule) | 31.5 ± 3.6 | 77.9 ± 8.2 | Male | 12 | Tablet | Study-specific CYP2D6 k<sub>cat</sub> |
 | [Mürdter 2016](#5)<sup>+</sup> | 100 clomiphene citrate (42 (E)-clomiphene model dose), oral | 25.2 (22–29) | 62.3 (50–70) | Female | 6 | Tablet | AS = 0 (PM) |
-| [Mürdter 2016](#5)<sup>+</sup> | 100 clomiphene citrate (42 (E)-clomiphene model dose), oral | 24.3 (21–30) | 59.3 (55.5–64) | Female | 4 | Tablet | AS = 0.5 (IM) |
-| [Mürdter 2016](#5)<sup>+</sup> | 100 clomiphene citrate (42 (E)-clomiphene model dose), oral | 22 | 63 | Female | 1 | Tablet | AS = 0.75 (IM) |
-| [Mürdter 2016](#5)<sup>+</sup> | 100 clomiphene citrate (42 (E)-clomiphene model dose), oral | 25.5 (23–28) | 68.8 (63.5–74) | Female | 2 | Tablet | AS = 1 (IM) |
+| [Mürdter 2016](#5) | 100 clomiphene citrate (42 (E)-clomiphene model dose), oral | 24.3 (21–30) | 59.3 (55.5–64) | Female | 4 | Tablet | AS = 0.5 (IM) |
+| [Mürdter 2016](#5) | 100 clomiphene citrate (42 (E)-clomiphene model dose), oral | 22 | 63 | Female | 1 | Tablet | AS = 0.75 (IM) |
+| [Mürdter 2016](#5) | 100 clomiphene citrate (42 (E)-clomiphene model dose), oral | 25.5 (23–28) | 68.8 (63.5–74) | Female | 2 | Tablet | AS = 1 (IM) |
 | [Mürdter 2016](#5)<sup>+</sup> | 100 clomiphene citrate (42 (E)-clomiphene model dose), oral | 32.3 (26–43) | 56.5 (48–63.5) | Female | 3 | Tablet | AS = 2 (NM) |
-| [Mürdter 2016](#5)<sup>+</sup> | 100 clomiphene citrate (42 (E)-clomiphene model dose), oral | 25.7 (22–28) | 61.7 (54–73) | Female | 3 | Tablet | AS = 3 (UM) |
+| [Mürdter 2016](#5) | 100 clomiphene citrate (42 (E)-clomiphene model dose), oral | 25.7 (22–28) | 61.7 (54–73) | Female | 3 | Tablet | AS = 3 (UM) |
 | [Ratiopharm GmbH 2016](#5) | 50 clomiphene citrate (21 (E)-clomiphene model dose), oral | NR | NR | NR | 18 | Tablet | Study-specific CYP2D6 k<sub>cat</sub> |
-| [Wiehle 2013](#5) | 6.25 enclomiphene citrate, oral, multiple dose | 53.3 ± 10.2 | NR | Male | 16 | Capsule | Study-specific CYP2D6 k<sub>cat</sub> |
-| [Wiehle 2013](#5) | 12.5 enclomiphene citrate, oral, multiple dose | 53.3 ± 10.2 | NR | Male | 14 | Capsule | Study-specific CYP2D6 k<sub>cat</sub> |
-| [Wiehle 2013](#5) | 25 enclomiphene citrate, oral, multiple dose | 53.3 ± 10.2 | NR | Male | 16 | Capsule | Study-specific CYP2D6 k<sub>cat</sub> |
+| [Wiehle 2013](#5) | 6.25 enclomiphene citrate (4.24 (E)-clomiphene model dose), oral, once daily for 43 days (model schedule) | 53.3 ± 10.2 | NR | Male | 16 | Capsule | Study-specific CYP2D6 k<sub>cat</sub> |
+| [Wiehle 2013](#5) | 12.5 enclomiphene citrate (8.48 (E)-clomiphene model dose), oral, once daily for 43 days (model schedule) | 53.3 ± 10.2 | NR | Male | 14 | Capsule | Study-specific CYP2D6 k<sub>cat</sub> |
+| [Wiehle 2013](#5) | 25 enclomiphene citrate (16.97 (E)-clomiphene model dose), oral, once daily for 43 days (model schedule) | 53.3 ± 10.2 | NR | Male | 16 | Capsule | Study-specific CYP2D6 k<sub>cat</sub> |
 
-**Table 2:**<a name="table-2"></a> Clinical (E)-clomiphene concentration-time profiles used for model building and verification. Data for the external studies are from Supplement Table S2 of [Kovar 2022](#5). The model-dose equivalents identify the evaluated simulation dose. \*: Single oral dose unless otherwise specified. AS: activity score. IM: intermediate metabolizer. NM: normal metabolizer. NR: not reported. PM: poor metabolizer. PT: predicted phenotype. UM: ultrarapid metabolizer. <sup>+</sup>: data used for model building. Parenthetical PTs for AS-coded rows use the CYP2D6 activity score-to-phenotype mapping from [Moore 2026](#5). Study-specific CYP2D6 k<sub>cat</sub>: activity score and phenotype were not reported, and the study-specific optimized values in Table 1b were used.
+**Table 2:**<a name="table-2"></a> Clinical (E)-clomiphene concentration-time profiles used for model building and verification. Data for the external studies are from [Kovar 2022](#5). The model-dose equivalents identify the evaluated simulation dose. \*: Single oral dose unless otherwise specified. Age and weight are means. Values with ± are mean ± SD. Values in parentheses are ranges. AS: activity score. IM: intermediate metabolizer. NM: normal metabolizer. NR: not reported. For [Ratiopharm GmbH 2016](#5), the simulation used the default 30-year-old European male individual because the study did not report demographics. PM: poor metabolizer. PT: predicted phenotype. UM: ultrarapid metabolizer. <sup>+</sup>: data used for model building. Parenthetical PTs for AS-coded rows use the CYP2D6 activity score-to-phenotype mapping from [Moore 2026](#5). Study-specific CYP2D6 k<sub>cat</sub>: activity score and phenotype were not reported, and the study-specific optimized values in Table 1b were used.

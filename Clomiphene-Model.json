@@ -53427,7 +53427,7 @@
         "Population": "WhiteAmerican_NHANES_1997",
         "Gender": "MALE",
         "Age": {
-          "Value": 41.5,
+          "Value": 53.3,
           "Unit": "year(s)"
         },
         "Weight": {
@@ -53922,9 +53922,9 @@
           "Type": "Acid",
           "Pka": 8.64,
           "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Optimized"
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "Chemicalize"
           }
         },
         {
@@ -54030,9 +54030,9 @@
               "Value": 1208.794021,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -54106,9 +54106,9 @@
               "Value": 0,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Assumed"
               }
             }
           ]
@@ -54151,9 +54151,9 @@
               "Value": 148.7990819,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -54196,9 +54196,9 @@
               "Value": 195.7839731,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -54241,9 +54241,9 @@
               "Value": 433.8173497,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -54377,18 +54377,18 @@
           "Type": "Acid",
           "Pka": 8.69,
           "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Optimized"
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "Chemicalize"
           }
         },
         {
           "Type": "Base",
           "Pka": 9.65,
           "ValueOrigin": {
-            "Source": "ParameterIdentification",
-            "Method": "ParameterIdentification",
-            "Description": "Optimized"
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "Chemicalize"
           }
         }
       ],
@@ -54479,9 +54479,9 @@
               "Value": 299.2603852,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -54524,9 +54524,9 @@
               "Value": 0,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Assumed"
               }
             }
           ]
@@ -54569,9 +54569,9 @@
               "Value": 36.83809632,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -54614,9 +54614,9 @@
               "Value": 48.47011666,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -54659,9 +54659,9 @@
               "Value": 107.3998919,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -54841,9 +54841,9 @@
               "Value": 84.00858577,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -54903,9 +54903,9 @@
               "Value": 8.248111562,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -54987,9 +54987,9 @@
               "Value": 0,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Assumed"
               }
             }
           ]
@@ -55033,9 +55033,9 @@
               "Value": 1.01531891,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -55079,9 +55079,9 @@
               "Value": 1.335916645,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -55125,9 +55125,9 @@
               "Value": 2.960118793,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -55263,9 +55263,9 @@
               "Value": 10.34807199,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -55309,9 +55309,9 @@
               "Value": 12.36587928,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -55355,9 +55355,9 @@
               "Value": 28.59140514,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -55401,9 +55401,9 @@
               "Value": 0,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Assumed"
               }
             }
           ]
@@ -55736,9 +55736,9 @@
               "Value": 171.5386005,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -55782,9 +55782,9 @@
               "Value": 22.68117655,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -55828,9 +55828,9 @@
               "Value": 29.84299905,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -55874,9 +55874,9 @@
               "Value": 0,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Assumed"
               }
             }
           ]
@@ -55920,9 +55920,9 @@
               "Value": 66.12599871,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -55966,9 +55966,9 @@
               "Value": 184.2542995,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -56042,9 +56042,9 @@
               "Value": 0,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Assumed"
               }
             }
           ]
@@ -56080,9 +56080,9 @@
               "Value": 21.11591042,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -56118,9 +56118,9 @@
               "Value": 27.7834835,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -56156,9 +56156,9 @@
               "Value": 61.56253235,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -56202,9 +56202,9 @@
               "Value": 0,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Assumption",
+                "Description": "Assumed"
               }
             }
           ]
@@ -56248,9 +56248,9 @@
               "Value": 57.48197455,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -56294,9 +56294,9 @@
               "Value": 81.56688504,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -56340,9 +56340,9 @@
               "Value": 175.0793273,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
@@ -56386,16 +56386,16 @@
               "Value": 467.2288197,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Optimized"
+                "Source": "Other",
+                "Method": "Other",
+                "Description": "Calculated"
               }
             }
           ]
         },
         {
           "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Mazzarino et al. 2013 (Miller 2018) - (E)-DE-clomiphene",
+          "DataSource": "Mazzarino et al. 2013 (Miller 2019) - (E)-DE-clomiphene",
           "Molecule": "CYP2D6",
           "Metabolite": "(E)-N-desethylclomiphene",
           "Parameters": [
@@ -56433,7 +56433,7 @@
         },
         {
           "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Kröner 2018 (Miller 2018) - (Z)-3-OH-clomiphene",
+          "DataSource": "Kröner 2018 (Miller 2019) - (Z)-3-OH-clomiphene",
           "Molecule": "CYP2D6",
           "Metabolite": "(Z)-3-OH-clomiphene",
           "Parameters": [
@@ -56479,7 +56479,7 @@
         },
         {
           "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Mürdter et al. 2012 (Miller 2018) - (E)-4-OH-clomiphene",
+          "DataSource": "Mürdter et al. 2012 (Miller 2019) - (E)-4-OH-clomiphene",
           "Molecule": "CYP2D6",
           "Metabolite": "(E)-4-hydroxyclomiphene",
           "Parameters": [
@@ -56655,7 +56655,7 @@
         },
         {
           "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Kröner 2018 (Wiehle 2013 25  mg) - (Z)-3-OH-clomiphene",
+          "DataSource": "Kröner 2018 (Wiehle 2013 25 mg) - (Z)-3-OH-clomiphene",
           "Molecule": "CYP2D6",
           "Metabolite": "(Z)-3-OH-clomiphene",
           "Parameters": [
@@ -57028,7 +57028,9 @@
               "Value": 43.2817700468,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "Unknown"
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
               }
             }
           ]
@@ -57118,7 +57120,9 @@
               "Value": 283.1204470445,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "Unknown"
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
               }
             }
           ]
@@ -57162,7 +57166,9 @@
               "Value": 213.0368822389,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "Unknown"
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Optimized"
               }
             }
           ]
@@ -61147,15 +61153,15 @@
               "MoleculeName": "AADAC"
             },
             {
-              "Name": "CYP2D6-Kröner 2018 (Miller 2018) - (Z)-3-OH-clomiphene",
+              "Name": "CYP2D6-Kröner 2018 (Miller 2019) - (Z)-3-OH-clomiphene",
               "MoleculeName": "CYP2D6"
             },
             {
-              "Name": "CYP2D6-Mazzarino et al. 2013 (Miller 2018) - (E)-DE-clomiphene",
+              "Name": "CYP2D6-Mazzarino et al. 2013 (Miller 2019) - (E)-DE-clomiphene",
               "MoleculeName": "CYP2D6"
             },
             {
-              "Name": "CYP2D6-Mürdter et al. 2012 (Miller 2018) - (E)-4-OH-clomiphene",
+              "Name": "CYP2D6-Mürdter et al. 2012 (Miller 2019) - (E)-4-OH-clomiphene",
               "MoleculeName": "CYP2D6"
             },
             {
@@ -62026,7 +62032,7 @@
               "MoleculeName": "AADAC"
             },
             {
-              "Name": "CYP2D6-Kröner 2018 (Wiehle 2013 25  mg) - (Z)-3-OH-clomiphene",
+              "Name": "CYP2D6-Kröner 2018 (Wiehle 2013 25 mg) - (Z)-3-OH-clomiphene",
               "MoleculeName": "CYP2D6"
             },
             {

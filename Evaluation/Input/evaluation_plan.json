@@ -78,27 +78,7 @@
       },
       {
         "Project": "Clomiphene",
-        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5)",
-        "SectionId": 331
-      },
-      {
-        "Project": "Clomiphene",
-        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75)",
-        "SectionId": 331
-      },
-      {
-        "Project": "Clomiphene",
-        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1)",
-        "SectionId": 331
-      },
-      {
-        "Project": "Clomiphene",
         "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=2)",
-        "SectionId": 331
-      },
-      {
-        "Project": "Clomiphene",
-        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3)",
         "SectionId": 331
       },
       {
@@ -109,6 +89,26 @@
       {
         "Project": "Clomiphene",
         "Simulation": "Miller (2019) - (E)-clomiphene, 21 mg, po, md, n=12",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=4 (AS=0.5)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=1 (AS=0.75)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=2 (AS=1)",
+        "SectionId": 332
+      },
+      {
+        "Project": "Clomiphene",
+        "Simulation": "Mürdter (2016) - (E)-clomiphene, 42 mg, po, n=3 (AS=3)",
         "SectionId": 332
       },
       {

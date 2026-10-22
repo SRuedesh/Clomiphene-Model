@@ -2,7 +2,7 @@
 
 The model includes oral administration of (E)-clomiphene after clomiphene citrate or enclomiphene citrate dosing. The clinical panel study used clomiphene citrate tablets containing the E/Z isomer mixture, and the model evaluates the (E)-clomiphene fraction relevant to the measured parent-metabolite dataset ([Kovar 2022](#5)).
 
-Oral absorption is represented with a tablet Weibull dissolution function and compound intestinal permeability. The tablet formulation parameters describe the oral input profile, while differences between CYP2D6 activity-score groups are assigned to metabolism rather than absorption.
+Oral absorption is represented with an assumed Weibull dissolution function and compound intestinal permeability. Dissolution profiles were not available. The same Weibull function is used for the clomiphene citrate tablets and for the enclomiphene citrate capsules of [Wiehle 2013](#5) ([Kovar 2022](#5)). The formulation parameters describe the oral input profile, while differences between CYP2D6 activity-score groups are assigned to metabolism rather than absorption.
 
 The external literature studies include single-dose and multiple-dose oral dosing conditions. These data support evaluation of oral input behavior across lower single doses and repeated enclomiphene exposure, but they do not by themselves resolve individual CYP2D6 activity in the absence of genotype or phenotype information.
 

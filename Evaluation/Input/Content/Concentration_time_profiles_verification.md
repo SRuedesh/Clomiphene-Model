@@ -1,1 +1,1 @@
-The model-verification profiles comprise independent literature studies after single-dose and multiple-dose oral administration.
+The model-verification profiles comprise the AS = 0.5, 0.75, 1 and 3 groups of the CYP2D6 activity-score panel and literature studies after single-dose and multiple-dose oral administration. For each literature study, the CYP2D6 k<sub>cat</sub> values were fitted to the observed profile ([Table 1b](#table-1b)).
